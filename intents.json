@@ -1,0 +1,522 @@
+{
+  "intents": [
+    {
+      "tag": "access course material",
+      "patterns": [
+        "How to access my course materials?",
+        "access my course materials"
+      ],
+      "responses": [
+        "Log In > Dashboard > My Courses > Click a Course \n You will be able to find all of your course materials, such as syllabus, instructional materials, and assignments."
+      ]
+    },
+    {
+      "tag": "download course material",
+      "patterns": [
+        "How to download course materials?",
+        "How to download course materials",
+        "Download course materials"
+      ],
+      "responses": [
+        "My Courses > Click a course > Click a material \n Note that you can’t download directly on the site. Some instructors provide a google drive link then you will be able to download the material."
+      ]
+    },
+    {
+      "tag": "see participants",
+      "patterns": [
+        "How to see the participants in a specific course?",
+        "How to see participants in a course?"
+      ],
+      "responses": [
+        "My courses > Click a Course > Click Participants\n You will be able to view all participants in that specific course, their roles, their groups, and their last access to that course."
+      ]
+    },
+    {
+      "tag": "active status",
+      "patterns": [
+        "Can I see the active status of my classmates?"
+      ],
+      "responses": [
+        "Yes, you can see the status of your classmates and other people who are online in your dashboard."
+      ]
+    },
+    {
+      "tag": "enroll new participant",
+      "patterns": [
+        "Can I enroll a new participant?"
+      ],
+      "responses": [
+        "No, you cannot enroll a new participant in a course."
+      ]
+    },
+    {
+      "tag": "see course categories",
+      "patterns": [
+        "How can I see all course categories under the whole PUP OUS?",
+        "How to see course categories under PUP OUS?"
+      ],
+      "responses": [
+        "Click the logo on the upper left > Scroll down > Click all courses > Open University System\n Scroll down and you will be able to view all the course categories. Use the pagination to navigate all the courses."
+      ]
+    },
+
+    {
+      "tag": "view overall grades",
+      "patterns": [
+        "How to view my overall grades in each course? ",
+        "How to see overall grades in each course?"
+      ],
+      "responses": [
+        "My Courses > Click a course > Click Grades \n You will be able to view your simple weighted mean of your grades on that course."
+      ]
+    },
+    {
+      "tag": "view grades for ass",
+      "patterns": [
+        "Can I see my grade for past assignments?"
+      ],
+      "responses": [
+       "Yes, you can see your grades from your previous assignments once your instructor assigned grades to it. It will be visible in the Grades section of the course."
+      ]
+    },
+    
+    {
+      "tag": "submit ass",
+      "patterns": [
+        "How to submit an assignment?"
+      ],
+      "responses": [
+       "Course > Click Assignment > Add Submission\n You will be able to see the time remaining of the submission. You can also add comments."
+      ]
+    },
+    
+    {
+      "tag": "ass graded",
+      "patterns": [
+        "How do I know if an assignment has been graded?"
+      ],
+      "responses": [
+       "Course > Click Assignment  > Navigate the Grading Status > From there, you will see if an assignment has been graded."
+      ]
+    },
+
+    {
+      "tag": "submit ass multiple times",
+      "patterns": [
+        "Can I resubmit an assignment multiple times?",
+        "Is it ok to resubmit assignment multiple times?"
+      ],
+      "responses": [
+       "No, you cannot resubmit multiple times, that’s why there is a confirmation before you submit an assignment."
+      ]
+    },
+
+    {
+      "tag": "ass size limit",
+      "patterns": [
+        "Is there a size limit in uploading an assignment?"
+      ],
+      "responses": [
+       "Yes, unfortunately, you can only upload an assignment with a maximum file size of 1 mb."
+      ]
+    },
+
+    {
+      "tag": "adding priv files",
+      "patterns": [
+        "How to upload a file?"
+      ],
+      "responses": [
+       "Go to Private Files > Click the file icon > Add a file > Click Submit Changes"
+      ]
+    },
+
+    {
+      "tag": "upload multiple files at once",
+      "patterns": [
+        "Can I upload multiple files at once?"
+      ],
+      "responses": [
+       "Yes, You can upload multiple files at once but be mindful that there is a maximum file size limit of 100 mb."
+      ]
+    },
+
+    {
+      "tag": "create folders",
+      "patterns": [
+        "Can I create folders to organize my file?",
+        "Can I create a folder to organize my file?"
+      ],
+      "responses": [
+       "Yes, You can create folders to organize your file. To create a folder, click the folder icone > Name your folder > Click Create"
+      ]
+    },
+
+    {
+      "tag": "view uploaded files",
+      "patterns": [
+        "How can I view all the files that I’ve uploaded?",
+        "How to view all the files that I’ve uploaded?"
+      ],
+      "responses": [
+       "It will appear in the empty section of the private files."
+      ]
+    },
+    
+    {
+      "tag": "size limit uploading a file",
+      "patterns": [
+        "Is there a size limit in uploading a file?"
+      ],
+      "responses": [
+       "Yes. The file s size limit should not exceed 1 MB."
+      ]
+    },
+
+    {
+      "tag": "delete uploaded file",
+      "patterns": [
+        "Can I delete a file once it's been uploaded?"
+      ],
+      "responses": [
+        "No. You cannot delete a file once it is been uploaded and if the submission status is already labeled as 'Submitted for grading'"
+      ]
+    },
+
+    {
+      "tag": "share private file",
+      "patterns": [
+        "Can I share private files with my instructor?"
+      ],
+      "responses": [
+       "No. It is not possible to share your private files to your instructor."
+      ]
+    },
+
+    {
+      "tag": "restriction type of file",
+      "patterns": [
+        "Are there any restrictions on the types of files I can upload?"
+      ],
+      "responses": [
+       "No. You can upload any file type as long as it meets the maximum file size."
+      ]
+    },
+
+    {
+      "tag": "access files from different device",
+      "patterns": [
+        "Can I access my files from a different device?"
+      ],
+      "responses": [
+       "Yes. You can I access my files from a different device"
+      ]
+    },
+
+    {
+      "tag": "edit profile",
+      "patterns": [
+        "How can I edit my Profile?",
+        "How to edit my Profile?"
+      ],
+      "responses": [
+       "Click the drop-down button beside your name > Click Profile > Click Edit Profile under User Details > Once you are done, click Update Profile"
+      ]
+    },
+
+    {
+      "tag": "uploading user picture",
+      "patterns": [
+        "How to upload a user picture?"
+      ],
+      "responses": [
+       "Click the drop-down button beside your name > Click Profile > Click Edit Profile under User Details > Click User Picture > Click the add files icon > Click upload this file > Once done, click update profile \nNote:\nMaximum file size = 5mb\nMaximum number of files = 1\nAccepted file types = .gif .jpe .jpeg .jpg .png"
+      ]
+    },
+
+    {
+      "tag": "update contact info",
+      "patterns": [
+        "How can I update my contact information?",
+        "How to update my contact number?"
+      ],
+      "responses": [
+      "Click the drop-down button beside your name > Click Profile > Click Edit Profile under User Details > Click Optional > Once done changing your contact information, click update profile"
+      ]
+    },
+
+    {
+      "tag": "change email add",
+      "patterns": [
+        " How can I change my email address?",
+        "How to change email address?"
+      ],
+      "responses": [
+      "Click the drop-down button beside your name > Click Profile > Click Edit Profile under User Details > Click General > Once done changing the email address, click update profile"
+      ]
+    },
+
+    {
+      "tag": "change password",
+      "patterns": [
+        "How can I change my password?",
+        "How to change password"
+      ],
+      "responses": [
+      "Click the drop-down button beside your name > Click Preferences  > Click Change Password  > Input your current password > Input your new password > Click Save Changes"
+      ]
+    },
+
+    {
+      "tag": "hide online status",
+      "patterns": [
+        "How to hide online status?",
+        "How to hide my online status?"
+      ],
+      "responses": [
+      "Go to Dashboard > Find the online users section > Click the eye icon to hide your online status from other users"
+      ]
+    },
+
+    {
+      "tag": "forgot to log out",
+      "patterns": [
+        "What would happen if I forgot to log out of my portal?",
+        "What if I forgot to log out?"
+      ],
+      "responses": [
+      "Your account will automatically log out if you are inactive."
+      ]
+    },
+
+    {
+      "tag": "can't access account",
+      "patterns": [
+        "Who can I contact if I can’t access my account?",
+        "What if I can't access my account?"
+      ],
+      "responses": [
+      "You can contact us at @pup.edu.ph, or find additional contact information in the footer of our website."
+      ]
+    },
+
+    {
+      "tag": "import and export calendar",
+      "patterns": [
+        "How to import/export calendar?"
+      ],
+      "responses": [
+     "Click your Name > Go to Calendar > Click import/export calendar"
+      ]
+    },
+
+    
+    {
+      "tag": "set reminder events",
+      "patterns": [
+        "How to set a reminder for events?"
+      ],
+      "responses": [
+        "It is not possible to set reminders for events, however you can view upcoming events in the dashboard under the 'Upcoming events' section."
+      ]
+    },
+
+    {
+      "tag": "view calendar",
+      "patterns": [
+        "How can I view my calendar?"
+      ],
+      "responses": [
+        "Click your Name > Go to Calendar"
+      ]
+    },
+
+    {
+      "tag": "add events to calendar",
+      "patterns": [
+        "How to add events to my calendar?"
+      ],
+      "responses": [
+        "Go to Dashboard > Find the upcoming events section > Click Go to Calendar > Click new event"
+      ]
+    },
+
+    {
+      "tag": "send message stud to prof",
+      "patterns": [
+        "How to send a message to a student or instructor?"
+      ],
+      "responses": [
+        "Click the message icon near your Name > Click Contacts > Start messaging"
+      ]
+    },
+
+    {
+      "tag": "access inbox",
+      "patterns": [
+        "How to access my inbox to view or reply to a message?"
+      ],
+      "responses": [
+        "Click the message icon near your Name > Check your inbox under the Starred, Group, Private Section  > Start replying"
+      ]
+    },
+
+    {
+      "tag": "view past messages",
+      "patterns": [
+        "How to view my past messages?"
+      ],
+      "responses": [
+        "Click the message icon near your Name > Check your inbox under the Starred, Group, Private Section  > View your past messages"      
+      ]
+    },
+
+    {
+      "tag": "delete messages",
+      "patterns": [
+        "How to delete messages?"
+      ],
+      "responses": [
+        "Left side of your profile > Click toggle messaging drawer icon > Search specific person name > Click three-dot icon > Click delete conversation."  
+      ]
+    },
+
+    {
+      "tag": "multiple msg",
+      "patterns": [
+        "Is it possible to send a message to multiple users at once?"
+      ],
+      "responses": [
+        "Yes, in E-mabini there is a group message created by your instructor. Student are not allowed to create group in E-mabini." 
+      ]
+    },
+
+    {
+      "tag": "attach file to msg",
+      "patterns": [
+        "Can I attach a file to my message?"
+      ],
+      "responses": [
+        "Sorry! You cannot attach file when using chat feature of E-Mabini, but you are allowed to use emojis."
+      ]
+    },
+
+    {
+      "tag": "msg read",
+      "patterns": [
+        "Is there an indication that my message has been read?"
+      ],
+      "responses": [
+        "Sorry! E-Mabini does not have any message indication that your message has been read."
+      ]
+    },
+
+    {
+      "tag": "create a gc",
+      "patterns": [
+        "How to create a group chat?",
+        "Can I create a group chat?",
+        "Can I create a gc?"
+      ],
+      "responses": [
+        "Sorry! Students are not allowed to make group chat in E-Mabini."
+      ]
+    },
+
+    {
+      "tag": "restriction msg",
+      "patterns": [
+        "How can I change the restriction on who can message me?"
+      ],
+      "responses": [
+        "Left side of your profile > Click toggle messaging drawer icon > Click settings icon\n Choose (My Contacts Only or My Contact and anyone in my courses)"
+      ]
+    },
+
+    {
+      "tag": "restriction msg",
+      "patterns": [
+        "How can I change the restriction on who can message me?"
+      ],
+      "responses": [
+        "Left side of your profile > Click toggle messaging drawer icon > Click settings icon\n Choose (My Contacts Only or My Contact and anyone in my courses)"
+      ]
+    },
+
+    {
+      "tag": "gc list",
+      "patterns": [
+        "Where can I find the list of my group chats in e-mabini?"
+      ],
+      "responses": [
+        "Left side of your profile > Click toggle messaging drawer icon > Click GROUP"
+      ]
+    },
+
+    
+    {
+      "tag": "msg draft",
+      "patterns": [
+        "Can I use/can anyone see my personal messaging drawer to save draft messages, links and notes?"
+      ],
+      "responses": [
+        "Yes, you can! You are the only one who have access to your personal messaging drawer. Therefore, you can use it to save draft messages, links, and notes."
+      ]
+    },
+
+    {
+      "tag": "add contact",
+      "patterns": [
+        "How do I add someone in my contacts?"
+      ],
+      "responses": [
+      "Left side of your profile > Click toggle messaging drawer icon > Click Contacts > Search specific name you want to add > Click three-dot icon > Click Add to contacts."
+      ]
+    },
+
+    
+    {
+      "tag": "accept request",
+      "patterns": [
+        "How to accept contact requests?"
+      ],
+      "responses": [
+      "Left side of your profile > Click toggle messaging drawer icon > Click Contacts > Click Request"
+      ]
+    },
+
+    {
+      "tag": "view contact list",
+      "patterns": [
+        "Where can I see the list of my contacts?"
+      ],
+      "responses": [
+      "Left side of your profile > Click toggle messaging drawer icon > Click Contacts > Click Contacts."
+      ]
+    },
+
+    {
+      "tag": "emabs",
+      "patterns": ["Hello", "Hi", "wazzup", "hey"],
+      "responses": [
+        "Hello! I'm Mabs, a chatbot for PUP's e-Mabini. How can I help you today?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    }
+
+  ]
+}

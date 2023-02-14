@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>e-Mabs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <header>
+  <nav>
+   <a class="navbar-brand" href="#">
+      <img src="{{url_for('static', filename = 'img/logo.png')}}" alt = "Your Logo">
+    </a>
+  </nav>
+</header>
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/pup2.jpg" class="d-block w-100" alt="...">
+      </div>
+  </div>
+
+ <div class="container">
+    <div class="circle-container">
+  <div class="circle">
+    <i class="fa fa-globe fa-4x" aria-hidden="true"></i>
+  </div>
+  <p class="circle-title"><strong>GLOBAL</strong></p>
+  <p class="circle-text">The PUP Open UniversitySystem is a member of the UNESCO Asia Pacific Knowledge Base on Open Distance Learning.</p>
+</div>
+    <div class="circle-container">
+        <div class="circle">
+            <i class="fa fa-graduation-cap fa-4x" aria-hidden="true"></i>
+        </div>
+            <p class="circle-title"><strong>LEARN AND WORK</strong></p>
+            <p class="circle-text">The multi-generational learners can enjoy the personal and spontaneous learning as they complete the courses without sacrificing their time for work and family</p>
+    </div>
+    <div class="circle-container">
+        <div class="circle">
+            <i class="fa fa-users fa-4x" aria-hidden="true"></i>
+        </div>
+            <p class="circle-title"><strong>VIRTUAL LEARNING</strong></p>
+            <p class="circle-text">The learners have several choices on ways to comprehend the lessons that are presented in the virtual learning environment and it provides an affordable and portable education for all.</p>
+    </div>
+    <div class="circle-container">
+        <div class="circle">
+            <i class="fa fa-mobile fa-4x" aria-hidden="true"></i>
+        </div>
+            <p class="circle-title"><strong>MOBILE FRIENDLY</strong></p>
+            <p class="circle-text">The new PUP eMabini Learning Portal is mobile device friendly. Now you can use your tablet and smartphone.</p>
+    </div>
+</div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. I'm Mabs. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename ='img/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+
+    <script type = "text/javascript" src="{{url_for('static', filename = 'app.js')}}"></script>
+
+</body>
+</html>
